@@ -2,13 +2,13 @@ name: 'my first container action'
 description: 'A cloud guru'
 author: 'Toby Mason-Barney'
 inputs:
-  myInputs:
+  myInput:
     description: 'greeting to use'
     required: true
     default: 'Awesome Guru'
-  outputs:
-    myOutput:
-      description: 'total memory'
-  runs:
-    using: 'docker'
-    image: 'Dockerfile
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile
