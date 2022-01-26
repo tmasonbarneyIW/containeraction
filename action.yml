@@ -1,6 +1,6 @@
 name: 'my first container action'
 description: 'A cloud guru'
-author: 'Toby Mason-Barney'
+author: 'Chad Crowell'
 inputs:
   myInput:
     description: 'greeting to use'
@@ -11,4 +11,4 @@ outputs:
     description: 'total memory'
 runs:
   using: 'docker'
-  image: 'Dockerfile
+  image: 'Dockerfile'
